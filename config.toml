@@ -47,3 +47,15 @@ canonifyurls = true
 [params.footer]
   copyright = "© 2019 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
   poweredBy = true
+
+
+## Privacy Configurations (GDPR)
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    # Make the users’ IP addresses are anonymized within Google Analytics
+    anonymizeIP = false
+    # Make the GA templates respect the “Do Not Track” HTTP header
+    respectDoNotTrack = false
+    # Disable the use of Cookies and use Session Storage to Store the GA Client ID
+    useSessionStorage = false
