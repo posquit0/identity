@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Jura', sans-serif;
+  font-size: 1rem;
+}
+
+.wrap {
+  width: 92%;
+  margin: 0 auto;
+  margin-top: 5em;
+
+  @media only screen and (min-width:1024px) {
+    width: 1024px;
+  }
+}
+
+a {
+  color: rgb(182, 39, 44);
+  text-decoration: none;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
