@@ -1,5 +1,5 @@
-# baseURL = "http://blog.posquit0.com"
-languageCode = "ko-KR"
+baseURL = "https://www.posquit0.com"
+languageCode = "en-US"
 title = "Posquit0"
 theme = "awesome-identity"
 # Make .Summary and .WordCount behave correctly for CJK languages
