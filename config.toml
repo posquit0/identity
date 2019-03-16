@@ -1,13 +1,24 @@
-baseURL = "https://www.posquit0.com"
-languageCode = "en-US"
-title = "Posquit0"
 theme = "awesome-identity"
+baseURL = "https://www.posquit0.com"
+title = "Byungjin Park - Software Architect / Hacker"
+languageCode = "en-US"
+# Content without language indicator will default to this language
+defaultContentLanguage = "en"
 # Make .Summary and .WordCount behave correctly for CJK languages
 hasCJKLanguage = true
-enableRobotsTXT = true
 PygmentsCodeFences = true
-canonifyurls = true
+# Enable to turn relative URLs into absolute
+canonifyURLs = false
+# Do not convert the url/path to lowercase
+disablePathToLower = false
+# Enable Emoji emoticons support for page content
+enableEmoji = true
+# Update the `Lastmod` parameter for each page using the last git commit date for that content file
+enableGitInfo = true
+# Enable generation of `robots.txt` file
+enableRobotsTXT = true
 
+# Google Analytics tracking ID
 googleAnalytics = "UA-96267122-2"
 
 
@@ -19,6 +30,7 @@ googleAnalytics = "UA-96267122-2"
   # googleSiteVerification = ""
 
 [params.profile]
+  image = "/images/profile.jpg"
   firstname = "Byungjin"
   lastname = "Park"
   title = "Software Architect / Hacker"

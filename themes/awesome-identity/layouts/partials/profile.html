@@ -1,11 +1,13 @@
 {{ with .Site.Params.profile -}}
 <section class="profile">
+  {{ if .image -}}
   <div class="image">
     <a href="/">
       <div class="spinner"></div>
-      <img alt="{{ .firstname }} {{ .lastname }}" src="https://avatars1.githubusercontent.com/u/1484002"/>
+      <img alt="{{ .firstname }} {{ .lastname }}" src="{{ .image }}"/>
     </a>
   </div>
+  {{- end }}
   <h1 class="name">{{ .firstname }} <b>{{ .lastname }}</b></h1>
   {{ with .title -}}
   <h2 class="title">{{ . }}</h2>
