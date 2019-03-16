@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jura:400">
 
-    {{ $options := (dict "outputStyle" "compressed") }}
-    {{ $style := resources.Get "sass/main.scss" | toCSS $options | fingerprint }}
+{{ $options := (dict "outputStyle" "compressed") }}
+{{ $style := resources.Get "sass/main.scss" | toCSS $options | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
   </head>
   <body>
@@ -19,5 +19,6 @@
 {{ partial "contacts.html" . }}
 {{ partial "footer.html" . }}
     </div>
+{{ template "_internal/google_analytics_async.html" . }}
   </body>
 </html>

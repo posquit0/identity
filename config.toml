@@ -8,6 +8,8 @@ enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
 
+googleAnalytics = "UA-96267122-2"
+
 
 # Add your own params here
 [params]
@@ -15,8 +17,6 @@ canonifyurls = true
   # Google Webmaster
   # https://www.google.com/webmasters/
   # googleSiteVerification = ""
-# Google Analytics UA number
-  # googleAnalytics = "UA-XXXXX-1"
 
 [params.profile]
   firstname = "Byungjin"
