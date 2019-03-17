@@ -8,7 +8,7 @@ defaultContentLanguage = "en"
 hasCJKLanguage = true
 PygmentsCodeFences = true
 # Enable to turn relative URLs into absolute
-canonifyURLs = false
+canonifyURLs = true
 # Do not convert the url/path to lowercase
 disablePathToLower = false
 # Enable Emoji emoticons support for page content
