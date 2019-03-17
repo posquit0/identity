@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jura:400">
 
-{{ $options := (dict "outputStyle" "compressed") }}
+{{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
 {{ $style := resources.Get "sass/main.scss" | toCSS $options | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
   </head>
   <body>
     <div class="wrap">
