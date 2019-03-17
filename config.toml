@@ -29,10 +29,13 @@ googleAnalytics = "UA-96267122-2"
   # googleSiteVerification = ""
 
 
-## Meta Configurations
+## Meta Configurations (HTTP Meta tags & OpenGraph)
 [params.meta]
   description = "Site Reliability Engineer at Kasa."
   keywords = "posquit0, bj, bj.park, byungjin, byungjinpark, sre, devops, backend, engineer, developer, architect"
+  images = [
+    "/images/profile.jpg"
+  ]
 
 
 ## Profile Configurations

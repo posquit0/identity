@@ -3,3 +3,9 @@
 <meta property="og:description" content="{{ . }}" />
 {{- end }}
 <meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Permalink }}" />
+{{ with .Site.Params.meta.images }}
+  {{- range first 6 . -}}
+<meta property="og:image" content="{{ . | absURL }}" />
+  {{- end -}}
+{{- end }}
