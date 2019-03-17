@@ -22,8 +22,12 @@ body {
 a {
   color: rgb(182, 38, 44);
   text-decoration: none;
-  -webkit-transition: color 1s;
-  transition: color 1s;
+  -webkit-transition: color 0.8s;
+  transition: color 0.8s;
+
+  &:visitied,&:hover,&:active {
+    text-decoration: none;
+  }
 }
 
 ::selection {
