@@ -24,11 +24,18 @@ googleAnalytics = "UA-96267122-2"
 
 # Add your own params here
 [params]
-  avatar = "/img/avatar.jpg"
   # Google Webmaster
   # https://www.google.com/webmasters/
   # googleSiteVerification = ""
 
+
+## Meta Configurations
+[params.meta]
+  description = "Site Reliability Engineer at Kasa."
+  keywords = "posquit0, bj, bj.park, byungjin, byungjinpark, sre, devops, backend, engineer, developer, architect"
+
+
+## Profile Configurations
 [params.profile]
   image = "/images/profile.jpg"
   firstname = "Byungjin"
@@ -42,6 +49,8 @@ googleAnalytics = "UA-96267122-2"
 
   Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools if the need arises."""
 
+
+## Contacts Configurations
 [params.contacts]
   email = "posquit0.bj@gmail.com"
   github = "posquit0"
@@ -56,6 +65,8 @@ googleAnalytics = "UA-96267122-2"
   # dribbble = "laozhu"
   # behance = "melaozhu"
 
+
+## Footer Configurations
 [params.footer]
   copyright = "© 2019 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
   poweredBy = true

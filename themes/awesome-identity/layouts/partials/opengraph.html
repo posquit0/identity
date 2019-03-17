@@ -1,0 +1,5 @@
+<meta property="og:title" content="{{ .Title }}" />
+{{ with .Site.Params.meta.description -}}
+<meta property="og:description" content="{{ . }}" />
+{{- end }}
+<meta property="og:type" content="website" />
