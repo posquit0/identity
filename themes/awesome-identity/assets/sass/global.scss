@@ -20,8 +20,18 @@ body {
 }
 
 a {
-  color: rgb(182, 39, 44);
+  color: rgb(182, 38, 44);
   text-decoration: none;
   -webkit-transition: color 1s;
   transition: color 1s;
+}
+
+::selection {
+  background-color: rgb(182, 38, 44);
+  color: white;
+}
+
+::-moz-selection {
+  background-color: rgb(182, 38, 44);
+  color: white;
 }
