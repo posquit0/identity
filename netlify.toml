@@ -6,3 +6,14 @@ command = "hugo --gc --minify"
 HUGO_VERSION = "0.54.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "https://posquit0.netlify.com/*"
+  to = "https://www.posquit0.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 301
