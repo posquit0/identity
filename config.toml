@@ -69,6 +69,18 @@ googleAnalytics = "UA-96267122-2"
   # behance = "melaozhu"
 
 
+## Actions Configurations
+[[params.actions]]
+  name = "Review My CV"
+  url = "https://down.pwntastic.kr/public/cv.pdf"
+[[params.actions]]
+  name = "Ask Me Anything"
+  url = "https://github.com/posquit0/ama"
+[[params.actions]]
+  name = "Buy Me a Coffee"
+  url = "https://buymeacoff.ee/posquit0"
+
+
 ## Footer Configurations
 [params.footer]
   copyright = "© 2019 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."

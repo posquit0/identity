@@ -22,10 +22,12 @@ body {
 a {
   color: rgb(182, 38, 44);
   text-decoration: none;
-  -webkit-transition: color 0.8s;
-  transition: color 0.8s;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
 
-  &:visitied,&:hover,&:active {
+  &:visitied,
+  &:hover,
+  &:active {
     text-decoration: none;
   }
 }
