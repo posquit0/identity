@@ -29,6 +29,21 @@ googleAnalytics = "UA-96267122-2"
   # googleSiteVerification = ""
 
 
+## Crisp Configurations
+[params.crisp]
+  websiteId = "e475f9fb-ce9e-472b-a194-3a3b92b252c4"
+  # Change the chatbox color theme
+  color = "red"
+  # Reverse the chatbox position
+  reversePosition = false
+  # Hide chatbox on mobile devices
+  hideOnMobile = false
+  # Hide chatbox on support away
+  hideOnAway = false
+  # Hide chatbox on vacation
+  hideVacation = false
+
+
 ## Meta Configurations (HTTP Meta tags & OpenGraph)
 [params.meta]
   description = "Site Reliability Engineer at Kasa."
