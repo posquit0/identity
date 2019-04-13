@@ -14,6 +14,9 @@
   <a href="https://app.netlify.com/sites/posquit0/deploys">
     <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/abeefe7a-e215-4994-9b1f-77d255a49b40/deploy-status" />
   </a>
+  <a href="https://circleci.com/gh/posquit0/identity">
+    <img alt="CircleCI" src="https://circleci.com/gh/posquit0/identity.svg?style=shield" />
+  </a>
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
     <img alt="CC BY-NC-SA 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" />
   </a>

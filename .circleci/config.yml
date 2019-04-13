@@ -1,0 +1,21 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+    - image: cibuilds/hugo:0.55.1
+    steps:
+    - checkout
+    - run:
+        name: "Install Submodules"
+        command: git submodule sync && git submodule update --init
+    - run:
+        name: "Build Static Site with Hugo"
+        command: hugo --buildDrafts -v
+        environment:
+          HUGO_ENABLEGITINFO: "true"
+    - run:
+        name: "Test with HTML Proofer"
+        command: htmlproofer public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+    - store_artifacts:
+        path: public/
