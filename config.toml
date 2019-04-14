@@ -55,7 +55,7 @@ googleAnalytics = "UA-96267122-2"
 
 ## Profile Configurations
 [params.profile]
-  image = "/images/profile.jpg"
+  portrait = "/images/profile.jpg"
   firstname = "Byungjin"
   lastname = "Park"
   title = "Software Architect / Hacker"
