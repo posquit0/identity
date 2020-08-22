@@ -46,7 +46,7 @@ googleAnalytics = "UA-96267122-2"
 
 ## Meta Configurations (HTTP Meta tags & OpenGraph)
 [params.meta]
-  description = "Site Reliability Engineer at Kasa."
+  description = "Infrastructure Chapter Lead at Kasa."
   keywords = "posquit0, bj, bj.park, byungjin, byungjinpark, sre, devops, backend, engineer, developer, architect"
   images = [
     "/images/profile.jpg"
@@ -59,9 +59,9 @@ googleAnalytics = "UA-96267122-2"
   firstname = "Byungjin"
   lastname = "Park"
   title = "Software Architect / Hacker"
-  bio = """Current Site Reliability Engineer at start-up company [**Kasa**](http://kasa.network).
+  bio = """Current Lead DevOps Engineer at start-up company [**Kasa**](https://kasa.co.kr).
 
-  7+ years experience specializing in the backend development, infrastructure automation, and computer hacking/security.
+  9+ years experience specializing in the backend development, infrastructure automation, and computer hacking/security.
 
   Super nerd who loves Vim, Linux and OS X and enjoys to customize all of the development environment.
 
@@ -79,15 +79,15 @@ googleAnalytics = "UA-96267122-2"
   # stackoverflow = "7919458"
   # instagram = "posquit0.bj"
   # medium = "posquit0"
-  # quora = "melaozhu"
-  # dribbble = "laozhu"
-  # behance = "melaozhu"
+  # quora = "posquit0"
+  # dribbble = "posquit0"
+  # behance = "posquit0"
 
 
 ## Actions Configurations
 [[params.actions]]
   name = "Review My CV"
-  url = "https://down.pwntastic.kr/public/cv.pdf"
+  url = "https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf"
 [[params.actions]]
   name = "Ask Me Anything"
   url = "https://github.com/posquit0/ama"
@@ -98,7 +98,7 @@ googleAnalytics = "UA-96267122-2"
 
 ## Footer Configurations
 [params.footer]
-  copyright = "© 2019 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  copyright = "© 2020 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
   poweredBy = true
 
 
