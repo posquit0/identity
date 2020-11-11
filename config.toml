@@ -46,8 +46,8 @@ googleAnalytics = "UA-96267122-2"
 
 ## Meta Configurations (HTTP Meta tags & OpenGraph)
 [params.meta]
-  description = "Infrastructure Chapter Lead at Kasa."
-  keywords = "posquit0, bj, bj.park, byungjin, byungjinpark, sre, devops, backend, engineer, developer, architect"
+  description = "Director of Infrastructure Division at Kasa."
+  keywords = "posquit0, bj, bj.park, byungjin, byungjinpark, sre, devops, backend, infrastructure, hacker, engineer, developer, architect"
   images = [
     "/images/profile.jpg"
   ]
@@ -59,7 +59,7 @@ googleAnalytics = "UA-96267122-2"
   firstname = "Byungjin"
   lastname = "Park"
   title = "Software Architect / Hacker"
-  bio = """Current Lead DevOps Engineer at start-up company [**Kasa**](https://kasa.co.kr).
+  bio = """Current Director of Infrastructure Division at start-up company [**Kasa**](https://kasa.co.kr).
 
   9+ years experience specializing in the backend development, infrastructure automation, and computer hacking/security.
 
