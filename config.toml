@@ -46,7 +46,7 @@ googleAnalytics = "UA-96267122-2"
 
 ## Meta Configurations (HTTP Meta tags & OpenGraph)
 [params.meta]
-  description = "Director of Infrastructure Division at Kasa."
+  description = "DevOps Engineer at KarrotPay."
   keywords = "posquit0, bj, bj.park, byungjin, byungjinpark, sre, devops, backend, infrastructure, hacker, engineer, developer, architect"
   images = [
     "/images/profile.jpg"
@@ -59,9 +59,9 @@ googleAnalytics = "UA-96267122-2"
   firstname = "Byungjin"
   lastname = "Park"
   title = "Software Architect / Hacker"
-  bio = """Current Director of Infrastructure Division at start-up company [**Kasa**](https://kasa.co.kr).
+  bio = """Current DevOps Engineer at start-up company [**당근페이(KarrotPay)**](https://www.daangn.com/).
 
-  9+ years experience specializing in the backend development, infrastructure automation, and computer hacking/security.
+  10+ years experience specializing in the backend development, infrastructure automation, and computer hacking/security.
 
   Super nerd who loves Vim, Linux and OS X and enjoys to customize all of the development environment.
 
@@ -77,7 +77,7 @@ googleAnalytics = "UA-96267122-2"
   keybase = "posquit0"
   # facebook = "posquit0"
   # stackoverflow = "7919458"
-  # instagram = "posquit0.bj"
+  instagram = "posquit0.bj"
   # medium = "posquit0"
   # quora = "posquit0"
   # dribbble = "posquit0"
@@ -98,7 +98,7 @@ googleAnalytics = "UA-96267122-2"
 
 ## Footer Configurations
 [params.footer]
-  copyright = "© 2020 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  copyright = "© 2021 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
   poweredBy = true
 
 
