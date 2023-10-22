@@ -46,7 +46,7 @@ googleAnalytics = "UA-96267122-2"
 
 ## Meta Configurations (HTTP Meta tags & OpenGraph)
 [params.meta]
-  description = "Site Reliability Engineer at KarrotPay."
+  description = "DevOps Engineer at Dunamu."
   keywords = "posquit0, bj, bj.park, byungjin, byungjinpark, sre, devops, backend, infrastructure, hacker, engineer, developer, architect"
   images = [
     "/images/profile.jpg"
@@ -60,7 +60,7 @@ googleAnalytics = "UA-96267122-2"
   lastname = "Park"
   title = "Software Architect / Hacker"
   bio = """
-  Site Reliability Engineer at fintech company [**당근페이(KarrotPay)**](https://www.daangnpay.com/).
+  DevOps Engineer at company [**두나무(Dunamu)**](https://dunamu.com).
 
   Have led growth at infrastructure departments in two fintech companies as lead engineer and founding member. 12+ years of diverse software engineering experience with specialties in software architecture design, infrastructure operation, backend development, and security engineering.
 
@@ -103,7 +103,7 @@ googleAnalytics = "UA-96267122-2"
 
 ## Footer Configurations
 [params.footer]
-  copyright = "© 2022 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  copyright = "© 2023 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
   poweredBy = true
 
 
