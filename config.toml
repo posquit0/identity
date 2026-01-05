@@ -46,7 +46,7 @@ googleAnalytics = "UA-96267122-2"
 
 ## Meta Configurations (HTTP Meta tags & OpenGraph)
 [params.meta]
-  description = "DevOps Engineer at Dunamu."
+  description = "Seasoned SRE/DevOps Leader"
   keywords = "posquit0, bj, bj.park, byungjin, byungjinpark, sre, devops, backend, infrastructure, hacker, engineer, developer, architect"
   images = [
     "/images/profile.jpg"
@@ -60,16 +60,14 @@ googleAnalytics = "UA-96267122-2"
   lastname = "Park"
   title = "Software Architect / Hacker"
   bio = """
-  DevOps Engineer at company [**두나무(Dunamu)**](https://dunamu.com).
+  Seasoned SRE/DevOps leader currently on a career sabbatical cherishing family moments, seeking high-impact opportunities in fast-growing start-up companies. 
 
-  Have led growth at infrastructure departments in two fintech companies as lead engineer and founding member. 12+ years of diverse software engineering experience with specialties in software architecture design, infrastructure operation, backend development, and security engineering.
+  With 15+ years of hands-on software engineering expertise — specializing in service architecture, DevOps & SRE practices, infrastructure operations, and security engineering — proven in scaling infrastructure teams as lead engineer and founding member at two fintech companies. Delivered technical advisory and consulting for DeFi, AI, and B2B SaaS startups, optimizing cloud-native architectures (AWS multi-account, Kubernetes, Terraform) for reliability and scalability.
 
   <br />
-  Love to contribute to open sources and tech communities by sharing knowledge and experience.
+  Passionate to contribute to open-source projects and tech communities through knowledge sharing knowledge and experience. 
 
-  Prefers a command line interface environment as a big fan of Vim, Linux, and macOS. Always trying to customize to find the most optimal environment.
-
-  Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools.
+  Big fan of terminal-centric workflows on macOS with zsh, Tmux, NeoVim, and chezmoi; relentlessly optimizes personal setups and experiments with Claude Code-powered AI workflows to tackle complex challenges faster.
   """
 
 
@@ -103,7 +101,7 @@ googleAnalytics = "UA-96267122-2"
 
 ## Footer Configurations
 [params.footer]
-  copyright = "© 2023 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  copyright = "© 2026 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
   poweredBy = true
 
 
