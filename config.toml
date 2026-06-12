@@ -28,9 +28,7 @@ disableKinds = ["taxonomy", "term"]
 
 ## Service Configurations
 [services.googleAnalytics]
-  # NOTE: Universal Analytics (UA-96267122-2) was shut down by Google on 1 July 2023.
-  # Create a GA4 property and set its measurement ID to re-enable analytics.
-  # id = "G-XXXXXXXXXX"
+  id = "G-3YBSFMQ16R"
 
 
 # Add your own params here
