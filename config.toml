@@ -1,12 +1,11 @@
 theme = "awesome-identity"
 baseURL = "https://www.posquit0.com"
 title = "Byungjin Park - Software Architect / Hacker"
-languageCode = "en-US"
+locale = "en-US"
 # Content without language indicator will default to this language
 defaultContentLanguage = "en"
 # Make .Summary and .WordCount behave correctly for CJK languages
 hasCJKLanguage = true
-PygmentsCodeFences = true
 # Enable to turn relative URLs into absolute
 canonifyURLs = true
 # Do not convert the url/path to lowercase
@@ -17,13 +16,29 @@ enableEmoji = true
 enableGitInfo = true
 # Enable generation of `robots.txt` file
 enableRobotsTXT = true
+# Single-page site; skip generating taxonomy pages
+disableKinds = ["taxonomy", "term"]
 
-# Google Analytics tracking ID
-googleAnalytics = "UA-96267122-2"
+
+## Markup Configurations
+[markup.goldmark.renderer]
+  # Allow raw HTML (e.g. <br />) in the profile bio
+  unsafe = true
+
+
+## Service Configurations
+[services.googleAnalytics]
+  # NOTE: Universal Analytics (UA-96267122-2) was shut down by Google on 1 July 2023.
+  # Create a GA4 property and set its measurement ID to re-enable analytics.
+  # id = "G-XXXXXXXXXX"
 
 
 # Add your own params here
 [params]
+  # Default color scheme: one of "auto" (default), "light", or "dark"
+  appearance = "auto"
+  # Show the light/dark color-scheme toggle switch in the top-right corner
+  schemeToggle = true
   # Google Webmaster
   # https://www.google.com/webmasters/
   # googleSiteVerification = ""
@@ -60,12 +75,12 @@ googleAnalytics = "UA-96267122-2"
   lastname = "Park"
   title = "Software Architect / Hacker"
   bio = """
-  Seasoned SRE/DevOps leader currently on a career sabbatical cherishing family moments, seeking high-impact opportunities in fast-growing start-up companies. 
+  Seasoned SRE/DevOps leader currently on a career sabbatical cherishing family moments, seeking high-impact opportunities in fast-growing start-up companies.
 
   With 15+ years of hands-on software engineering expertise — specializing in service architecture, DevOps & SRE practices, infrastructure operations, and security engineering — proven in scaling infrastructure teams as lead engineer and founding member at two fintech companies. Delivered technical advisory and consulting for DeFi, AI, and B2B SaaS startups, optimizing cloud-native architectures (AWS multi-account, Kubernetes, Terraform) for reliability and scalability.
 
   <br />
-  Passionate to contribute to open-source projects and tech communities through knowledge sharing knowledge and experience. 
+  Passionate to contribute to open-source projects and tech communities through knowledge sharing knowledge and experience.
 
   Big fan of terminal-centric workflows on macOS with zsh, Tmux, NeoVim, and chezmoi; relentlessly optimizes personal setups and experiments with Claude Code-powered AI workflows to tackle complex challenges faster.
   """
@@ -82,9 +97,12 @@ googleAnalytics = "UA-96267122-2"
   # stackoverflow = "7919458"
   instagram = "posquit0.bj"
   # medium = "posquit0"
-  # quora = "posquit0"
-  # dribbble = "posquit0"
-  # behance = "posquit0"
+  # gitlab = "posquit0"
+  # bitbucket = "posquit0"
+  # devto = "posquit0"
+  # hackerrank = "posquit0"
+  # credly = "posquit0"
+  # xing = "posquit0"
 
 
 ## Actions Configurations
@@ -109,9 +127,5 @@ googleAnalytics = "UA-96267122-2"
 [privacy]
   [privacy.googleAnalytics]
     disable = false
-    # Make the users’ IP addresses are anonymized within Google Analytics
-    anonymizeIP = false
     # Make the GA templates respect the “Do Not Track” HTTP header
     respectDoNotTrack = false
-    # Disable the use of Cookies and use Session Storage to Store the GA Client ID
-    useSessionStorage = false
